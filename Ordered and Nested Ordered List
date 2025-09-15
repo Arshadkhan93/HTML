@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>8-8-25</title>
+</head>
+<body>
+  <h2>Ordered and Nested Ordered List</h2>  
+  <h3> Simple Ordered list</h3>
+  <p>This is basic Ordered list:</p>
+  <ol>
+   <li>First item</li>
+   <li>Second item</li>
+   <li>Third item</li>
+   <li>Fourth item</li>
+  </ol>
+  <h3>Nested Ordered List</h3>
+  <ol>
+    <li>
+        Main item A
+        <ol>
+            <li>Sub-tem A1</li>
+            <li>Sub item A2</li>
+        </ol>
+    </li>
+    <li>
+        Main item B
+        <ol>
+            <li>Sub-item B-1</li>
+            <li>Sub-item-B2</li>
+        </ol>
+        <li>Main item C
+            
+        </li>
+    </li>
+  </ol>
+
+  <h2>Unordered and Nested Unordered List</h2>
+  <h3>Simple Unordered List</h3>
+  <p>This is basic  Unordered list</p>
+  <ul>
+    <li>Item one</li>
+    <li>Item two</li>
+    <li>Item three</li>
+    <li>Item four</li>
+  </ul>
+  <h3>Nested Unordered List</h3>
+  <p>This demonstrate an Unordered list containing another unordered list</p>
+<ul>
+    <li>Main Category 1
+        <ul>
+            <li>Sub-category 1</li>
+            <li>Sub-category 2</li>
+        </ul>
+    </li>
+    <li>
+        Main Category 2
+        <ul>
+            <li>Sub-category2.1</li>
+            <li>Sub-category2.1</li>
+            <li>Sub-category2.1</li>
+        </ul>
+    </li>
+    <li>
+        Main Category 3
+    </li>
+</ul>
+<h2>Defination and Nested Defination lists</h2>
+<h3>Defination List</h3>
+<p>This is a basic defination list:</p>
+<dl>
+
+    <dt>html</dt>
+    <dd>Hypertext Markup language : the standerd markup language for creating web pages</dd>
+<dt>Cs</dt>
+<dd>Cascading Style sheet .uset for describig the presentaion of a webape</dd>
+<dt>Javascript</dt>
+<dd> A programming language that enables interactive web pages</dd>
+<dt>Backend</dt>
+<dd>Technologies like that run on the server ,handeling data storafe logic and security</dd>
+<dt>Database</dt>
+<dd>Organised data collection</dd>
+</dl>
+
+<h2>Demonstrate of html list and their Attributes </h2>
+<h3>Ordered List</h3>
+<p>Ordered list are used for specific item which need a sequence</p>
+<h3>
+Defualt order list (type="1")
+</h3>
+<ol type="1">
+    <li>First default item</li>
+    <li>Second default item</li>
+    <li>Third default item</li>
+</ol>
+<h3>Ordered list with 'type Attribute' (Roman Numerals)</h3>
+<ol type="I">
+    <li>First Roman no></li>
+    <li>Second Roman no</li>
+    <li>Third Roman no</li>
+</ol>
+<h3>
+    Ordered list with 'type Attribute' (Lowercase Letter)
+</h3>
+<ol type="a">
+<li>First Lowercase</li>
+<li>Second Lowercase</li>
+<li>Third Lowercase</li>
+</ol>
+<h3>Ordered list with ' type=start' atribute</h3>
+<ol type="1" start="5">
+    <li>Countdouwn form the last item</li>
+    <li>Second to last</li>
+    <li>Last item</li>
+</ol>
+<h3>Nested Ordered with reversed Attribute</h3>
+<ol reversed start="3">
+    <li>one</li>
+    <li>two</li>
+    <li>three</li>
+</ol>
+<h3>Nested Ordered list with mixed  Attribute</h3>
+<ol type="A">
+    <li>
+        Main Task 1
+        <ol type="i" start="iii">
+            <li>sub task 1</li>
+            <li>sub task 2</li>
+        </ol>
+        <li> Main Task 2
+            <ol reversed start="2">
+                <li>sub tast 2.1</li>
+                 <li>sub tast 2.1</li>
+            </ol>
+            <li>Main Task 3</li>
+        </li>
+    </li>
+</ol>
+<h2>Unordered list (&lt;ul&gt;)/h2>
+    <p>Unordered list are used for items the order does not matter The type attribute is for &lt;ul&gt;</p>
+
+    <h3>Default Unordered Lisr (usually disc)</h3>
+    <ul>
+        <li>Item 1</li>
+        <li>Item 1</li>
+        <li>Item 1</li>
+        
+    </ul>
+
+</body>
+</html>
