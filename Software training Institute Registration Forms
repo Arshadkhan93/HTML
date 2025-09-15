@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms two</title>
+    <link rel="shortcut icon" href="/Images/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <h2>1.Software training Institude Registration Fomrs</h2>
+<form action=>
+    <fieldset>
+        <legend>
+            Personal Details
+        </legend>
+        <label for="fn">Full Name:</label>
+        <input type="text" id="fn">
+        <br><br>
+        <label for="em">Email Address:</label> <input type="email" id="em">
+        <br><br>
+        <label for="ph">Phone Number</label><input type="number" id="ph">
+        <br><br>
+        <label for="ed">Highest Educational Qualification:</label> <select name="" id="ed">
+            <option value="" selected>--Select Educationl Level--</option>
+            <option value="">Under Graduate</option>
+            <option value="">Graduate</option>
+        </select>
+        <br>
+        <br>
+        <label for="et">Employment Status:</label><br>
+        <!-- the name should be same for the all the element to work as one and to be selected one -->
+<input type="radio" id="st" name="is"> <label for="st">Student</label><br>
+<input type="radio" id="emp" name="is"> <label for="emp">Employed</label><br>
+<input type="radio" id="un" name="is"> <label for="un">Unemployed</label><br>
+<input type="radio" id="s" name="is"> <label for="s">Self-employed</label>
+
+    </fieldset>
+</form>
+<form action="">
+    <fieldset>
+        <legend>Course Selections</legend>
+        <label for="cc">Course Category:</label><select name="" id="cc">
+        <option value="" selected>--Select Category--</option>
+        <option value="">Front-end</option>  
+        <option value="">Backend</option> 
+        </select>
+        <br><br>
+        <label for="sc">Specific Course:</label><select name="" id="sc">
+            <option value="" selected>--First Select a Category--</option>
+             <option value="">Java Full-Stack</option>  
+        <option value="">.Net Full-Stack</option> 
+        </select>
+<br><br>
+<label for="cl">Course Level:</label><br>
+<select name="" id="cl">
+    <option value="" selected>--Select Level--</option>
+</select>
+
+    </fieldset>
+</form>
+<form action="">
+    <fieldset>
+        <legend>
+            Technical Background
+        </legend>
+        <label for="o">Programming Languages Known(select all apply):</label><br>
+        <input type="checkbox" name="" id="j"><label for="j"> Java</label><br>
+  <input type="checkbox" name="" id="p"><label for="">Python</label><br>
+  <input type="checkbox" name="" id="js"><label for="js"> JavaScript</label><br>
+  <input type="checkbox" name="" id="cs"><label for="cs"> C#</label><br>
+  <input type="checkbox" name="" id="ph"><label for="ph"> PHP</label><br>
+  <input type="checkbox" name="" id="cp"><label for="cp"> C++</label><br>
+  <input type="checkbox" name="" id="r"><label for="r"> Ruby</label><br>
+  <input type="checkbox" name="" id="ot"><label for="ot"> Others</label><br><br>
+  <label for="ys">Years of Programming Expereince:</label><input type="number"><br><br>
+  <label for="tb">Technical Background:</label><br>
+  <textarea name="" id="tb" rows="3" cols="30" placeholder="Briefly describe your technical background or experience..."></textarea>
+  
+  
+  
+    </fieldset>
+</form>
+
+<form action="">
+    <fieldset>
+        <legend>Payements Details</legend>
+        <label for="pm">Payment Method:</label><br>
+        <input type="radio" name="ps" id="cd"><label for="cd">Credit Card</label><br>
+        <input type="radio" name="ps" id="dc"><label for="dc">Debit Card</label><br>
+        <input type="radio" name="ps" id="bt"><label for="bt">Bank Transfer</label><br>
+        <input type="radio" name="ps" id="pp"><label for="pp">PayPal</label><br><br>
+
+        <label for="pl">Select Payment Plane:</label><br>
+        <select name="" id="pl">
+            <option value="">--Select Payment Plan--</option>
+        </select>
+        <br><br> 
+        <input type="checkbox" name="" id="tm"><label for="tm">Apply for Early Bird Discount (If available)</label><br><br>
+        
+    </fieldset>
+
+
+</form>
+<form action="">
+    <fieldset>
+        <legend>Additional Information</legend>
+        <label for="ha">How did you hear about us?</label><br>
+        <select name="" id="ha">
+            <option value="" selected>--Select Option--</option>
+        </select><br>
+        <br>
+        <label for="lg">What are your learning gaols?</label><br>
+        <textarea name="" id="lg" rows="5" cols="40" placeholder="Describe what you hope for achieve throght this training"></textarea><br><br>
+<input type="checkbox" name="" id="sb"><label for="sb">Subscribe to our neswletter for update on new courses and offers</label><br>
+<input type="checkbox" name="" id="if"> <label for="if">I agree to the Terms and Conditions</label>
+    </fieldset>
+    <input type="button" value="Register">&nbsp;<input type="button" value="Clear Form">
+</form>
+</body>
+</html>
