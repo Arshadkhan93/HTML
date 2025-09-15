@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form validation</title>
+  </head>
+  <body>
+    <h2>Demonstrating Fieldsets with Tables</h2>
+    <p>
+      This example shows how fieldsets can be used to group related table and
+      forms
+    </p>
+    <fieldset>
+      <legend>Personal Information</legend>
+      <table border="1">
+        <tr>
+          <th  colspan="2">Contact Details</th>
+        </tr>
+        <tr>
+            <td><label for="name">First Name:</label></td>
+            <td><input type="text" name="" id="name"></td>
+        </tr>
+        <tr>
+            <td><label for="lname">Last Name:</label></td>
+            <td><input type="text" name="" id="lname"></td>
+        </tr>
+        <tr>
+            <td><label for="em">Email:</label></td>
+            <td><input type="email" name="" id="em"></td>
+        </tr>
+        <tr>
+            <td><label for="ph">Phone:</label></td>
+            <td><input type="tel" name="" id="ph"></td>
+        </tr>
+      </table>
+
+      
+    </fieldset>
+    <fieldset>
+        <legend>
+           Address Information
+        </legend>
+        <table border="1">
+            <tr>
+                <th colspan="2"> Mailing Address</th>
+            </tr>
+            <tr>
+                <td>
+                    <label for="st">Street:</label>
+                </td>
+                <td><input type="text" id="st"></td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="ct">City:</label>
+                </td>
+                <td><input type="text" id="ct"></td>
+            </tr>
+           <tr>
+                <td>
+                    <label for="stp">State/Providence:</label>
+                </td>
+                <td><input type="text" id="stp"></td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="pc">Postal Code:</label>
+                </td>
+                <td><input type="text" id="pc"></td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="c">Country:</label>
+                </td>
+                <td><input type="text" id="c"></td>
+            </tr>
+        </table>
+    </fieldset>
+    <fieldset>
+        <legend>
+            Employment History
+        </legend>
+        <p>Please list your two Employers:</p>
+        <table border="1">
+            <tr>
+                <th colspan="2">Most Recent Employer</th>
+            </tr>
+            <tr>
+                <td><label for="cn"> Company Name:</label></td>
+                <td><input type="text" id="cn"></td>
+            </tr>
+            <tr>
+                <td><label for="ps"> Position:</label></td>
+                <td><input type="text" id="ps"></td>
+            </tr>
+            <tr>
+                <td><label for="ym"> Year Employed:</label></td>
+                <td><input type="text" id="ym"></td>
+            </tr>
+        </table>
+        <br>
+        <br>
+         <table border="1">
+            <tr>
+                <th colspan="2">Previous Employers</th>
+            </tr>
+            <tr>
+                <td><label for="cn1"> Company Name:</label></td>
+                <td><input type="text" id="cn1"></td>
+            </tr>
+            <tr>
+                <td><label for="ps1"> Position:</label></td>
+                <td><input type="text" id="ps1"></td>
+            </tr>
+            <tr>
+                <td><label for="ym1"> Year Employed:</label></td>
+                <td><input type="text" id="ym1"></td>
+            </tr>
+        </table>
+
+    </fieldset>
+    <fieldset>
+        <legend>
+            Submit Application
+        </legend>
+        <table border="1">
+<tr>
+    <td colspan="4"><input type="checkbox" id="s"><label for="s">I certainly that all information provided is correct</label></td>
+
+</tr>
+<tr>
+    
+    <th colspan="2"><input type="button" value="Submit Application">&nbsp;<input type="button" value="Clear Form"></th>
+
+</tr>
+        </table>
+    </fieldset>
+  </body>
+</html>
