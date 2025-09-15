@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Third</title>
+</head>
+<body>
+    <h1>Using Quotaion and Citation Tags in HTML</h1>
+    <p>Here is famous quote by Albert Einstiein</p>
+    <blockquote>"Life is like riding a bicycle, To Keep your balance,you must keep moving".</blockquote>
+    <p>In the context of this discussion,one might say:</p>
+    <p>
+    "To keep your balance ,You must keep moving"    
+    </p>
+    <p>This quote is widely attributed to <cite>
+        Albert Einstiein
+    </cite></p>
+    <p>In litery studies , its essential to cite source properly. For example,if you are referencing a famous work like <cite>pride and prejedicell</cite>
+    by Jane William Shakespare , you should always  include the authour's name to proper credit</p>
+    <p>Another  classic example can be seen in <cite>Romeo and Juliet</cite>by Willian Shakespeare,where love and tragedy interwine to create a timeless story</p>
+</body>
+</html>
