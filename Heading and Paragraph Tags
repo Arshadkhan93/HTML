@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+<body>
+    <center><h1 >Wellcome to our Webpage</h1></center>
+    <center><h3>This is demonstration of all heading and paragraph tag of the HTML</h3></center>
+<p>Thank you for visiting our website. We are dedicated to providing you with the latest updates and information on various topics. Explore the sections below to learn more about what we offer.</p>
+
+<h2>About Us</h2>
+<p>Our company has been at the forefront of innovation of over  a decades.We specelized in delievering the top-notch solutions that cater to needs of our diverse clientele our mission is to make world better place through our innovative products and services</p>
+<h3>Our Services</h3>
+<p>We offer wide range of services that are desinged to meet the unique need of our custumer.Weather you are looking for web development,mobile app solution,cloud services,we have the expertise to help you succeed</p>
+<h4>Client Testimonels</h4>
+<p>Dont just take our word for it! Our clients have shared there experiences with our services,and their feedback has been overwhelmengly positive.We take pride in the trust our clients place in in us and strive to exceed thier expectations</p>
+<h5>Latest News</h5>
+<p>Stay updated with the latest news and trends in the industry. We regularly post articles, blogs, and case studies to keep you informed about the latest developments. Be sure to check this section regularly for fresh  content</p>
+
+<h6>Contact Us</h6>
+<p>If you have any questions or would like to learn more about our services, please don't hesitate to reach out. You can contact us through our website, email, or phone. We look forward to hearing from you!</p>
+</body>
+</html>
