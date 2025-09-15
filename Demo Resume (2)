@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Resume 2 </title>
+</head>
+<body>
+    <h2 style="text-align: center;">Ravi &mdash; <em>Software Developer</em></h2>
+   <p style="text-align: center;"><em>Built with only presentational/fromating tags plus &lt;hr&gt; and &lt;fieldset&gt;</em></p>
+   <hr/>
+   <fieldset>
+    <legend>
+       <b> Contact</b>
+    </legend>
+    <p><strong>Email:</strong><a href="mailto:jumershafakir@gmail.com">ravi@gmail.com</a></p>
+    <p><strong>Phone:</strong>+919021428504</p>
+    <p><strong>Website: <a href="">https://www.gogole.com</a></strong></p>
+    <p><strong>Location:</strong>India</p>
+   </fieldset>
+   <fieldset>
+    <legend>
+        <b>About Me</b>
+    </legend>
+    <p><strong>HI!</strong> im ravi <em>full-stack </em> developer who loves builiding wev apps ,i injoy clean code ,readable,APIs,and programastic ans DX .When im not coding im reading docs and <del>Breaking</del> <u>Improving </u>side projects. <br>&nbsp;&nbsp;&nbsp;<q>simple is better than complex,but shipped beats perfect</q></p>
+   </fieldset>
+   <fieldset>
+<legend>
+    <b> Skills</b>
+</legend>
+<p><strong>Languages:</strong>JavaScript,Typescript,HTML,CSS</p>
+<p><strong>Framework:</strong>React ,Nodejs,Expressjs </p>
+<p><strong>Database:</strong>PostgreSQL, MongoDB</p>
+<p><strong>Tools:</strong>Git,Docker,jest</p>
+   </fieldset>
+
+   <fieldset>
+    <legend>
+       <b> Projects</b>
+    </legend>
+    <p>1)<strong>Js Handbook</strong>&mdash;<i>In depth learning content modeled on javasript info</i><br>
+        Role: <strong>Author</strong>|Format: <em>JSON-driven content</em>
+        <br>
+      <h4><a href="#">Read Online</a> &bull; <a href="#">Repo</a>
+</h4>
+    </p>
+    <hr>
+    <p>
+        2) <strong>SnippetBox</strong>&mdash; <em>Example</em>(2022-presen5)
+    </p>
+    
+    <p>Bult internal UI kit. cut bundle size by <strong>34%</strong>and improved TTI.</p>
+    <p><strong>Front-end Developer</strong>&mdash; <em>Example</em>(2020-2023)</p>
+<p>Delivered dashboard ,wrote tests ,and mentored interns.</p>
+<p>Via tree shaking code spittin and imagaes </p>
+
+   </fieldset>
+<fieldset>
+    <legend>
+        <b><u>Education and Certification</u></b>
+    </legend>
+    <p><strong>MCA</strong>&mdash;<em>Abc institute of technology </em></p>
+    <p>Relevent:algortithm DBMS,Os,networks</p>
+    <p><strong>Meta Front-end Cert</strong>&mdash;<em>Coursera</em></p>
+    <p>Focus:accessible UI,React Patterns.</p>
+</fieldset>
+<fieldset>
+    <legend>
+        <B>Extra</B>
+    </legend>
+    <p><strong>Speaking:</strong><em>Local js meetings</em></p>
+    <p><strong>Writting:</strong><em>Blog posts on testing &amp; perfomance</em></p>
+    <p><strong>Interest:</strong><em>Devtools,DX,docs
+    </em></p>
+</fieldset>
+</body>
+</html>
