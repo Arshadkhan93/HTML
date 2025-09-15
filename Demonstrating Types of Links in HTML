@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>7-08-25(2)</title>
+</head>
+<body>
+    <h1>Demonstrating Types of Links in HTML</h1>
+  <h3>Internal Link</h3>
+  <p>Internal links navigate to different Secton within "same " page webpage.</p>
+  <ul>
+    <li><a href="#sect1">Go to Section 1</a></li>
+    <li><a href="">Go to Section 2</a></li>
+    <li><a href="">Go to Section 3</a></li>
+  </ul>
+  <h3>External Links</h3>
+ 
+ 
+  <p>External Links links navigate to websites or web pages outside of the current domain</p>
+<li><a href="https://www.google.com/" target="_blank">Visit Google Open in new tap</a></li>
+    <li><a href="https://www.wikipedia.org/" target="_blank">Visite Wikipedia</a></li>
+<div id="one"></div>
+
+<h3>Text Links</h3>
+<p>click <a href="https://www.w3schools.com/tags/tag_a.asp">here </a> to learn about the anchor tag.</p>
+
+<h3>Picture Links</h3>
+<p>Picture links usean image as the clickable element .clicking element image will tak you to specified URL</p>
+
+<a href="https://unsplash.com/">
+    <img src="https://miro.medium.com/v2/resize:fit:1200/0*omXNDFPKOGqy1Qaj.png" alt="" id="sect1" height="200">
+</a>
+<p>click the image to visit unsplash</p>
+
+<h3>Local Links</h3>
+local lins used to navigete to other html files or resources within the same project or  server to demonstrate the local link,image  you have another file named about .html in the same folder .Click <a href="/fifth.html">click here</a> to go
+<h3>Email Links</h3>
+<p>Email links (mailto lins) open the users default email client ,pre-finding the receipt address <a href="mailto:jumershafakir@gmail.com">Send an Email to Example</a></p>
+
+</body>
+
+</html>
