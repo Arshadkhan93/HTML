@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+</head>
+<body>
+    <h2 style="text-align: center;">Arshad khan</h2>
+    <h3 style="text-align: center;">Wev Designer and & Designer</h3>
+<p>124 Any Street Anytowon ,USA 12345| (4456) 123-3456| <a href="">arshadkhan10062005@gmail.com</a></p>
+    <hr/>
+    <h3>About Me</h3>
+   
+    <p>Motivated and detail-oriented individual with a strong foundation in programming, web technologies, and data structures. Skilled in Java and front-end development, with hands-on experience in building projects and solving coding challenges. Seeking opportunities to apply my technical knowledge, creativity, and teamwork skills in a dynamic environment.</p>
+<hr/>
+<h3>Skills</h3>
+<p><strong>Programming Langauges:</strong>HTML,JavaScript,Python,Java</p>
+<p><strong>Tools & Frameworks:</strong>Git,Nodejs,React</p>
+<p><strong>Concept:</strong>Responsive Design,UI/UX,SFO</p>
+<hr/>
+<h3>Projects</h3>
+
+<h4>Project Alpha - E - commerce Site</h4>
+<p><em>A full-featured e-commerece platform built to handle product login ,adding to cart ,shopping,and securer process</em></p>
+<ul>
+    <li>Developed a Responsive product grid layout using only HTML tables</li>
+    <li>Implemented a sample form for customer information during checkout</li>
+    <li>Utilize basic list to display product ,features and specification</li>
+</ul>
+<h4> Prkect beta-blog Platform</h4>
+<p><em>This project consist of management system (CMS) for evening and publicing blog parts</em></p>
+<ul>
+    <li>Structured the blog part pages with headlines and paragraphs</li>
+<li>Created a simple navigation menu with enla to diffrent pages</li>
+<li>Used table to organixe authoer information and post mistakes</li>
+</ul>
+<h4>Project Gamma -Survey App</h4>
+<p><em>Single wev Application to create and share online rupya</em></p>
+<ul>
+    <li>Designed a multi-page form using to group related questions</li>
+    <li>Included various inpute types like radio buttons,checkbox,and text areas</li>
+</ul>
+<hr/>
+<h3>contact</h3>
+<fieldset><legend>
+    send a message
+</legend>
+<label for="name">Your name:</label><br>
+<input type="text" id="name"><br>
+<label for="nam">Your Email:</label><br>
+<input type="email" id="nam"><br>
+<label for="in">Message:</label><br>
+<textarea name="" id="in" cols="0" rows="2"></textarea>
+<br>
+<input type="button" value="Submit">
+</fieldset>
+
+</body>
+</html>
