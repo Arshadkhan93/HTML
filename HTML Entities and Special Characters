@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>7-08-25</title>
+    <link rel="favicon" href="">
+    
+</head>
+<body>
+    <h1>HTML Entities and Special Characters</h1>
+    <h3>HTML Entities</h3>
+    <ul>
+        <li>less than sign: &lt;</li>
+        <li>Greater than singn: &gt;</li>        
+        <li>Ampersand: &amp;</li>
+        <li>Copyright symbol:&copy;</li>
+        <li>Register trademark &reg;</li>
+        <li>Non-breaking space this text has &nbsp; extra spaces</li>
+        <li>Euro symbol: &euro;</li>
+        <li>Pund symbol &pound;</li>
+    </ul>
+    <h3>HTML Hexadecimal Codes</h3>
+    <ul>
+        <li>Copyright symbol (hex):&copy;</li>
+        <li>Registered trademark (hex):&reg;</li>
+        <li>Heart symbol (hex):&hearts;</li>
+        <li>Star symbol (hex):&star;</li>
+    </ul>
+    <h3>Title Tag</h3>
+    <p>The title of this page is in the browser tab</p>
+    <h3>Logo Icon (Favicon)</h3>
+    <p> &lt;link rel="icon" href="./images/fv.png" type="image/png"&gt;</p>
+    
+</body>
+</html>
